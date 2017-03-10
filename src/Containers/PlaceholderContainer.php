@@ -1,6 +1,5 @@
 <?php
 // Placeholder/src/Containers/PlaceholderContainer.php
-
 namespace Placeholder\Containers;
 
 use Plenty\Plugin\Templates\Twig;
@@ -12,5 +11,4 @@ class PlaceholderContainer
 		return $twig->render('Placeholder::content.Placeholder');
 	}
 }
-
 ?>
